@@ -34,6 +34,51 @@ public class MyShapeSolver extends ShapeSolver {
                         {
                             display(i, j, Orientation.ROTATE_NONE);
                         }
+                         if(shape[a][b]== world[i][j] )
+                        {
+                            display (i,j, Orientation.ROTATE_CLOCKWISE);
+
+                        }
+                         if(shape[a][b]== world[i][j])
+                        {
+                            display(i,j,Orientation.ROTATE_180);
+
+                        }
+                         if(shape[a][b]== world[i][j])
+                        {
+                            display(i,j,Orientation.ROTATE_COUNTERCLOCKWISE);
+
+                        }
+                         if(shape[a][b]== world[i][j])
+                        {
+                            display(i,j,Orientation.ROTATE_COUNTERCLOCKWISE);
+
+                        }
+                         if(shape[a][b]== world[i][j])
+                        {
+                            display(i,j,Orientation.ROTATE_NONE_REV);
+
+                        }
+                         if(shape[a][b]== world[i][j])
+                        {
+                            display(i,j,Orientation.ROTATE_CLOCKWISE_REV);
+
+                        }
+                         if(shape[a][b]== world[i][j])
+                        {
+                            display(i,j,Orientation.ROTATE_180_REV);
+
+                        }
+                         if(shape[a][b]== world[i][j])
+                        {
+                            display(i,j,Orientation.ROTATE_COUNTERCLOCKWISE_REV);
+
+                        }
+                        else
+                        {
+                            undisplay();
+
+                        }
                     }
                 }
 
@@ -42,7 +87,7 @@ public class MyShapeSolver extends ShapeSolver {
 
 
         }
-        //display(3, 4, Orientation.ROTATE_CLOCKWISE);
+
     }
 
     /**
